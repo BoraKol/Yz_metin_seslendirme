@@ -14,7 +14,7 @@ language = st.selectbox('Dil Seçiniz: ' , ['Türkçe' , 'İngilizce' , 'Rusça'
 if st.button('Seslendir'):
     ## metin girilmesi gereken alanın boş olup olmadığını kontrol edelim.   
     if not text_message :
-           st.error('Lütfen bir metin giriniz...)
+           st.error('Lütfen bir metin giriniz...')
     else :
                            
            ## Dil seçimine göre lang_code ayarlama
